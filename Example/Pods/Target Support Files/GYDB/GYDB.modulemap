@@ -1,0 +1,6 @@
+framework module GYDB {
+  umbrella header "GYDB-umbrella.h"
+
+  export *
+  module * { export * }
+}
