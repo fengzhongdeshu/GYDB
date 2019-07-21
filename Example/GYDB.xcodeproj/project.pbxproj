@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F703A0422E4BA3D003E1D2D /* UpdateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F703A0022E4BA3D003E1D2D /* UpdateViewController.m */; };
+		0F703A0522E4BA3D003E1D2D /* QueryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F703A0122E4BA3D003E1D2D /* QueryViewController.m */; };
+		0F703A0622E4BA3D003E1D2D /* AddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F703A0222E4BA3D003E1D2D /* AddViewController.m */; };
+		0F703A0A22E4BA45003E1D2D /* GYUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F703A0822E4BA45003E1D2D /* GYUser.m */; };
+		0F703A0D22E4BABA003E1D2D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F703A0C22E4BABA003E1D2D /* ViewController.m */; };
+		0F703A1022E4BC62003E1D2D /* gydb_03@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F703A0F22E4BC61003E1D2D /* gydb_03@2x.png */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -37,10 +43,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1082F4FFCEF3022D05DB1EE4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		0F7039FE22E4BA3D003E1D2D /* QueryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QueryViewController.h; sourceTree = "<group>"; };
+		0F7039FF22E4BA3D003E1D2D /* AddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddViewController.h; sourceTree = "<group>"; };
+		0F703A0022E4BA3D003E1D2D /* UpdateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UpdateViewController.m; sourceTree = "<group>"; };
+		0F703A0122E4BA3D003E1D2D /* QueryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QueryViewController.m; sourceTree = "<group>"; };
+		0F703A0222E4BA3D003E1D2D /* AddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddViewController.m; sourceTree = "<group>"; };
+		0F703A0322E4BA3D003E1D2D /* UpdateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UpdateViewController.h; sourceTree = "<group>"; };
+		0F703A0822E4BA45003E1D2D /* GYUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GYUser.m; sourceTree = "<group>"; };
+		0F703A0922E4BA45003E1D2D /* GYUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GYUser.h; sourceTree = "<group>"; };
+		0F703A0B22E4BABA003E1D2D /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0F703A0C22E4BABA003E1D2D /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0F703A0F22E4BC61003E1D2D /* gydb_03@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gydb_03@2x.png"; sourceTree = "<group>"; };
+		1082F4FFCEF3022D05DB1EE4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		10B077F218C128E9DD1153D8 /* Pods-GYDB_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GYDB_Tests.debug.xcconfig"; path = "Target Support Files/Pods-GYDB_Tests/Pods-GYDB_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		5065DDB8C447EF0576923E94 /* Pods-GYDB_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GYDB_Example.release.xcconfig"; path = "Target Support Files/Pods-GYDB_Example/Pods-GYDB_Example.release.xcconfig"; sourceTree = "<group>"; };
-		5A581E23054A5D6DC95325FE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		5A581E23054A5D6DC95325FE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* GYDB_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GYDB_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -64,7 +81,7 @@
 		72FF31B110C5B57B0B0DD707 /* Pods_GYDB_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GYDB_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		73025DDE1C65C9025F2745F4 /* Pods_GYDB_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GYDB_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9AB25A186705B6BB8019956A /* GYDB.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = GYDB.podspec; path = ../GYDB.podspec; sourceTree = "<group>"; };
+		9AB25A186705B6BB8019956A /* GYDB.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = GYDB.podspec; path = ../GYDB.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C9966C890C233BC29FD61717 /* Pods-GYDB_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GYDB_Tests.release.xcconfig"; path = "Target Support Files/Pods-GYDB_Tests/Pods-GYDB_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		F83164F6A6293CF585E6FD31 /* Pods-GYDB_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GYDB_Example.debug.xcconfig"; path = "Target Support Files/Pods-GYDB_Example/Pods-GYDB_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -95,6 +112,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F7039FD22E4BA3D003E1D2D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0F7039FE22E4BA3D003E1D2D /* QueryViewController.h */,
+				0F7039FF22E4BA3D003E1D2D /* AddViewController.h */,
+				0F703A0022E4BA3D003E1D2D /* UpdateViewController.m */,
+				0F703A0122E4BA3D003E1D2D /* QueryViewController.m */,
+				0F703A0222E4BA3D003E1D2D /* AddViewController.m */,
+				0F703A0322E4BA3D003E1D2D /* UpdateViewController.h */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		0F703A0722E4BA45003E1D2D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0F703A0822E4BA45003E1D2D /* GYUser.m */,
+				0F703A0922E4BA45003E1D2D /* GYUser.h */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0F703A0E22E4BC61003E1D2D /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				0F703A0F22E4BC61003E1D2D /* gydb_03@2x.png */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
@@ -132,14 +179,19 @@
 		6003F593195388D20070C39A /* Example for GYDB */ = {
 			isa = PBXGroup;
 			children = (
+				0F703A0E22E4BC61003E1D2D /* Resource */,
+				0F7039FD22E4BA3D003E1D2D /* Controllers */,
 				6003F59C195388D20070C39A /* GYDBAppDelegate.h */,
 				6003F59D195388D20070C39A /* GYDBAppDelegate.m */,
-				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* GYDBViewController.h */,
 				6003F5A6195388D20070C39A /* GYDBViewController.m */,
-				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
+				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
+				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
+				0F703A0722E4BA45003E1D2D /* Model */,
 				6003F594195388D20070C39A /* Supporting Files */,
+				0F703A0B22E4BABA003E1D2D /* ViewController.h */,
+				0F703A0C22E4BABA003E1D2D /* ViewController.m */,
 			);
 			name = "Example for GYDB";
 			path = GYDB;
@@ -193,7 +245,6 @@
 				10B077F218C128E9DD1153D8 /* Pods-GYDB_Tests.debug.xcconfig */,
 				C9966C890C233BC29FD61717 /* Pods-GYDB_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -278,6 +329,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F703A1022E4BC62003E1D2D /* gydb_03@2x.png in Resources */,
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
@@ -365,11 +417,17 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-GYDB_Example/Pods-GYDB_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework",
 				"${BUILT_PRODUCTS_DIR}/GYDB/GYDB.framework",
+				"${BUILT_PRODUCTS_DIR}/MyLayout/MyLayout.framework",
+				"${BUILT_PRODUCTS_DIR}/TPKeyboardAvoiding/TPKeyboardAvoiding.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FMDB.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GYDB.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MyLayout.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TPKeyboardAvoiding.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -383,9 +441,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F703A0522E4BA3D003E1D2D /* QueryViewController.m in Sources */,
 				6003F59E195388D20070C39A /* GYDBAppDelegate.m in Sources */,
+				0F703A0D22E4BABA003E1D2D /* ViewController.m in Sources */,
+				0F703A0622E4BA3D003E1D2D /* AddViewController.m in Sources */,
 				6003F5A7195388D20070C39A /* GYDBViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				0F703A0A22E4BA45003E1D2D /* GYUser.m in Sources */,
+				0F703A0422E4BA3D003E1D2D /* UpdateViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

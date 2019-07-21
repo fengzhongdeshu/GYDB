@@ -7,12 +7,16 @@
 //
 
 #import "GYDBAppDelegate.h"
-
+#import "ViewController.h"
 @implementation GYDBAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    ViewController *controller = [[ViewController alloc]init] ;
+    UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:controller] ;
+    self.window.rootViewController = nav ;
+    nav.navigationBar.translucent = NO ;
+    [self.window  makeKeyAndVisible] ;
     return YES;
 }
 

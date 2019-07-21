@@ -3,20 +3,25 @@
   "version": "0.1.0",
   "summary": "A short description of GYDB.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/liuguoyan/GYDB",
+  "homepage": "https://github.com/fengzhongdeshu/GYDB",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "liuguoyan": "liuguoyan21@126.com"
+    "fengzhongdeshu": "liuguoyan21@126.com"
   },
   "source": {
-    "git": "https://github.com/liuguoyan/GYDB.git",
+    "git": "https://github.com/fengzhongdeshu/GYDB.git",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "GYDB/Classes/**/*"
+  "source_files": "GYDB/Classes/**/*",
+  "dependencies": {
+    "FMDB": [
+
+    ]
+  }
 }
