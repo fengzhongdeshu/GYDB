@@ -17,7 +17,12 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 4:操作简单，简单调用即可实现CRUD操作。  
  
 
-##Usage##
+##Usage##  
+
+**配置**  
+(1)调试模式:GYDBOption.debug = NO ;  
+(2)数据库名称:GYDBOption.dbName = @"demo.db" ;  
+
 **保存**  
 GYUser *user = [[GYUser alloc]init] ;
 BOOL bol = [[[GYDBOprator opratorWithModel:[GYUser class]]addSaveModel:user] save] ;
