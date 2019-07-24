@@ -19,7 +19,7 @@
 #define GYDB_DATABASE_NAME GYDBOption.dbName
 
 #define GYDB_Log(info) if(GYDBOption.debug) NSLog(info);
-#define GYDB_LogObj(info) if(GYDBOption.debug) NSLog(@"---%@",info);
+#define GYDB_LogObj(info) if(GYDBOption.debug) NSLog(@"%@",info);
 
 #endif
 

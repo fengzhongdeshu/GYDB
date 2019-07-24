@@ -15,8 +15,7 @@
 		0F72AA9F03EC61C6D857941E0B45811A /* FMDatabasePool.h in Headers */ = {isa = PBXBuildFile; fileRef = 561D2B416F2B6B13FD364C084A1D356F /* FMDatabasePool.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		11C410135C7E89353B480AC8DE0BFB77 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F0ED13B9D6E83E22F9ACAF328054753 /* UIApplication+StrictKeyWindow.m */; };
 		14AD81D52FAD9CF2C065C61FB00C3B4F /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = F499FD4112B2E7EDF2812FE399C6BBAC /* UIImage+Diff.m */; };
-		14C511527597E5846AB2627F791C7D8E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82899C4E4BBB6C16A9CFE6E9B05B5385 /* QuartzCore.framework */; };
-		15AE75274641DAAFE02EA8162829C060 /* GYDBModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B9F8D350127272DED0EE334FAE64037 /* GYDBModel.m */; };
+		14C511527597E5846AB2627F791C7D8E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 716A9972B9D9103B54DB950893FAF104 /* QuartzCore.framework */; };
 		219BADA8C55CF72273F5A734AA0E0EF6 /* FMDB-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DC0067EF298843109BE66D0D59979684 /* FMDB-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		23900D4B9B0EE3B83D648BCDFCBB82D6 /* MyLinearLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 38561CB79927151F4CCEAD2BAB54DE72 /* MyLinearLayout.m */; };
 		2464B75CC18A35123A6589CFAA107B80 /* MyPathLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = F942511F47989BF8E70BCC186AC5E18D /* MyPathLayout.m */; };
@@ -24,45 +23,39 @@
 		2B63035CAB0A3DDFF0C72C57B30B7CBE /* MyLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = DA33D5E6F5C2F6E7564AC19E30A8FA69 /* MyLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2DCFF0CE0BD295F1D46D3247F36B192C /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 46AA544CDFAA0550BC26F0B9A432E5B8 /* UIImage+Compare.m */; };
 		31560D2F8FE72E2F19C81C8B062B3A61 /* MyBaseLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = A9B8DC8BCBCB04960B646814BEB0C7B4 /* MyBaseLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		320F2C1E95D39D19814F6A5C6C802BF4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6AB8FC1FE30CC16320E823B3F8F6441 /* Foundation.framework */; };
 		35B26008F398A95E00F7DA259444914F /* TPKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AF0FD0E4CA772D694D1EFF5456E6E4E /* TPKeyboardAvoidingScrollView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		37296B38A55A40BEF65ECFC9B0527D8E /* FMDatabase.h in Headers */ = {isa = PBXBuildFile; fileRef = 00536788B1A0926240D3C6C69EB90616 /* FMDatabase.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		393B314D6809E38C47C64FCE76A4C8DD /* FMDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DDC17EAEA818244545D50274F63BDC8 /* FMDB.framework */; };
 		3A464CBDFA070662D6BEF00AA896F9AE /* MyGridNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DC08621B6C6D2FCD581532F2FE613B8 /* MyGridNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3B2A47ED7BAC77F5E01EE45B547695E9 /* MyFloatLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 119C8F43F52FF68AB2A5DC6C366AA8D0 /* MyFloatLayout.m */; };
 		3DC3B218CB84958A2B25BB59E1696FD0 /* MyFrameLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = B81EBE45A2C592916FA8474B2327C94E /* MyFrameLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3DEEF25511FF117DEEE98AE7F8F41D4F /* MyLinearLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 63BAC2E843F06A212D3CB686E6304466 /* MyLinearLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3EC5AFB65FDDE0C720AEADA57C219E0A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6AB8FC1FE30CC16320E823B3F8F6441 /* Foundation.framework */; };
+		3EC5AFB65FDDE0C720AEADA57C219E0A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
 		40039E0AF0D764360B1D4FC4F7950D2E /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 437772D03DF000E335B8381718E89EE5 /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		43CEF8355C0BA952007228624385C661 /* MyDimeScale.m in Sources */ = {isa = PBXBuildFile; fileRef = F0DAB2DD30E74449C16663D5A0243C51 /* MyDimeScale.m */; };
-		43FE025B75F4162B0FD9F34D3BB44455 /* GYDBOprator.m in Sources */ = {isa = PBXBuildFile; fileRef = E0F2EF1BD817CD389B48461005509032 /* GYDBOprator.m */; };
 		44CB3CF7B85062D253FD3CA2367B9491 /* MyBaseLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 7095A33FA27208F9A626D2D2D9714D4C /* MyBaseLayout.m */; };
 		46297704A3DC7948D55AB750BF3E5407 /* MyLayoutSize.h in Headers */ = {isa = PBXBuildFile; fileRef = D251F9485760BD17FFDC9CE26B582E7B /* MyLayoutSize.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		47904D8869F8C44703C7550783E939A2 /* MyRelativeLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = A1A66514F8A1FFB5FA0EBA9149D49960 /* MyRelativeLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		49FF33B63A01F957A56656C56D6849E7 /* MyTableLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 6696496081C503D63B560991661145B2 /* MyTableLayout.m */; };
 		4B73B386F18C087F79B7F941A9986680 /* TPKeyboardAvoidingScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B11FD237C233212A4125F33F37B5FF3 /* TPKeyboardAvoidingScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4BCE7A2C39A4A837AB5C247355D31DD0 /* GYDBConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = E3AC860D49632A225F8B52C66CBD67E4 /* GYDBConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4ECF5718853AD0744FE6E028F4EB11A9 /* TPKeyboardAvoiding-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 935A7399D1F6EB7F1F7FFEB001DABA26 /* TPKeyboardAvoiding-dummy.m */; };
 		538F74CC22D0D13E9D79AC3ECC6DFFE7 /* FMDatabaseAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 436222C386519395ACC36915680A5020 /* FMDatabaseAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		584A28D1C8D1AC9EEFF68D60BA58E839 /* MyFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 1801B58E05A48F5E0B45DF581758F55F /* MyFlowLayout.m */; };
 		5ADBE441F328ACDBAC54B867AC9A000B /* MyFlowLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C63EBE45CF98AB64D38E1CC30A0F8EE /* MyFlowLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		634BA282ED5A8A40D3DD2D336F1212D0 /* TPKeyboardAvoidingTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F4746BA1F403775D4681D4D9F502049 /* TPKeyboardAvoidingTableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		634E11CA470DB7ADB8F054E30E042B25 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6AB8FC1FE30CC16320E823B3F8F6441 /* Foundation.framework */; };
+		634E11CA470DB7ADB8F054E30E042B25 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
 		67A7D42CFC9EE63145C3F03089E2AC66 /* Pods-GYDB_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D778C4D178F68BF78BC77C944E0492B /* Pods-GYDB_Tests-dummy.m */; };
 		67F9DE195BD2D1B3B33B5568D1236982 /* MyGrid.h in Headers */ = {isa = PBXBuildFile; fileRef = FDB6C08A95A74215B79186DFCA28EFF1 /* MyGrid.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		68CAD7F4306A4D92675B40F1FDEA5040 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6AB8FC1FE30CC16320E823B3F8F6441 /* Foundation.framework */; };
-		6AE239C5D116E1C06F5705699FB9EAF0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20A76C530748389F9745FDAEEC051C66 /* XCTest.framework */; };
+		6AE239C5D116E1C06F5705699FB9EAF0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E601BD54DA9BF4071437E60125281FA /* XCTest.framework */; };
 		6B4195E21B0832BB0CE9BFE47702CFED /* MyLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CE3A6256B32A1CFA4C405D889922B089 /* MyLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6C58288FB8A294C16676BF03E51AA34D /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AF341209C0FFBD8A76B577FA1D78A7C /* FMDatabase.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		6DBC8EB7532E931C2FBDA71D1E0B66A4 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 032F1DB4122AC1638147D3FCF11B96A4 /* FBSnapshotTestCase-dummy.m */; };
 		6E57C69DCFA7E18696F18260E973A004 /* MyPathLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = A134B12248FDC8698306E1FBCA9051B9 /* MyPathLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7394E123FBD9832A5D6FD726D5D9470C /* FMDatabaseQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D65ECE895397A156D551384D1A14FE3 /* FMDatabaseQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7991AA65903D9815F3DFF30EBFB32100 /* MyLayoutSizeClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C07E06E5C6B32FB5C58E3EFC076C588 /* MyLayoutSizeClass.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		79C4BF5FAC3F3F0E06825AA49FAC8786 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6AB8FC1FE30CC16320E823B3F8F6441 /* Foundation.framework */; };
+		79C4BF5FAC3F3F0E06825AA49FAC8786 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
 		7D43D2A6A4DC9242EF2411AB92AD2C3C /* MyDimeScale.h in Headers */ = {isa = PBXBuildFile; fileRef = A22AF20DAC6E67E1D1591639A1122A1A /* MyDimeScale.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7D4E0D91FE60904C9FB50F6D447B8A30 /* FMDB-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 45596DCC74987D674DABEA4B66BAEA81 /* FMDB-dummy.m */; };
 		7E323D8314D0D3E6C9055833A5C92D29 /* MyLayoutSizeInner.h in Headers */ = {isa = PBXBuildFile; fileRef = B04DCE0020685CE66DDCFDB3ED68638C /* MyLayoutSizeInner.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7F47CE8199F1A9484459FA8543E3E733 /* Pods-GYDB_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 798FDBA301D4CB65EEBA074D6C58D01B /* Pods-GYDB_Example-dummy.m */; };
 		86038F72A930B6ED7DAC94F92F300572 /* MyLayoutPos.h in Headers */ = {isa = PBXBuildFile; fileRef = A259B48E44E536BE2C414430BE4600A6 /* MyLayoutPos.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		869D4D239271A494D5DFCB9107E31F82 /* MyFloatLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AC9BFD21899F2CC312059C93651BF58 /* MyFloatLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		88396E68DC05A379282F3B374F75F43C /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 970FF74180A8155855069B3610B6A301 /* FBSnapshotTestController.m */; };
@@ -71,44 +64,39 @@
 		912524D3ED3A35D18C66C9246F029DF7 /* TPKeyboardAvoidingCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 875EDCED88F2A1ACD80AC4DFAC05074A /* TPKeyboardAvoidingCollectionView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		9D65089019D558E5A9661F2DCAD20313 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1E948AA6BD91451A96E58ED8C6AD26 /* SwiftSupport.swift */; };
 		9E3CC1CF2B89F239AA12A26CAF2C29E1 /* MyMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 08FA53D9AA87E2B6669D2A8FC20131AA /* MyMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A0BFD3F4E35F4DF72BB76F5B34BFF94E /* Pods-GYDB_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D5F2A53DD812CD820CAEF34F9666096 /* Pods-GYDB_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A0ECBBE0FAE601E074D2C965B8241825 /* MyTableLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D3FFC35523991B221288D4D888C72AC /* MyTableLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A241B0490C1DCCAC93C4C922350A8663 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6AB8FC1FE30CC16320E823B3F8F6441 /* Foundation.framework */; };
+		A241B0490C1DCCAC93C4C922350A8663 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
 		A41F732064DEDE60506109210ECE6C8F /* MyLayoutMath.h in Headers */ = {isa = PBXBuildFile; fileRef = 3ECE896E76608B46FB8CEDEF808DDC9F /* MyLayoutMath.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A525E29E0A8079B35B793D8A2B5FBDF2 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 283B75A7A53D1150B462526D12D82903 /* UIImage+Snapshot.m */; };
+		A7DF561A591CD63DF205831E669372F2 /* Pods-GYDB_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D5F2A53DD812CD820CAEF34F9666096 /* Pods-GYDB_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A92CDCFE2DC0D002DE1F208C2FEAB545 /* FMDB.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F1C99E5844FD3FDF3F497D72644D651 /* FMDB.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AF9B88A2C96F4498D44C8BA2C747FD0D /* TPKeyboardAvoidingTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = F39D9000C5064659B45B7ABD80D1B3D0 /* TPKeyboardAvoidingTableView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		B02EEF0BBD15511F3CEC03F1704FD988 /* MyFrameLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = C1349C84B4AD237380A0FE7BF7B8E27E /* MyFrameLayout.m */; };
 		B233155419CF7887626C5A597623B041 /* MyLayoutPos.m in Sources */ = {isa = PBXBuildFile; fileRef = 575405B13CC6D86AA937BAC22724E8EF /* MyLayoutPos.m */; };
-		B25D795BDC4F426BC01EFC911F368B81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6AB8FC1FE30CC16320E823B3F8F6441 /* Foundation.framework */; };
+		B25D795BDC4F426BC01EFC911F368B81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
 		B45C271A99886BBF92BBC94774A807A4 /* MyMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = DA7DF34E1F68CBB66784D5EA78498FE2 /* MyMaker.m */; };
 		B74CD6E6EBEA0B642776BCB37850415D /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = B227A49D6A5428F3C7891BFBD01FEF4D /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		B957D0566E20EDDE4C0D4C37F6DC3A1E /* TPKeyboardAvoiding-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 78E53516730984C0DD212923663185F5 /* TPKeyboardAvoiding-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BB7ECF4DBE8D4BB38E6F2F08C326922A /* FMResultSet.h in Headers */ = {isa = PBXBuildFile; fileRef = E5ADD16830465AC351FE9AC591C88977 /* FMResultSet.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BE4D9933F78EEF12F3824D960F077689 /* GYDB-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C88358D39A2D44C7C8BC34083B02FA12 /* GYDB-dummy.m */; };
 		C08B60CF7EBF5F7F86258EA5C71A3C9A /* Pods-GYDB_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 63D770136CE40C9A9006854C04C76E20 /* Pods-GYDB_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C20C62DD0A7D6166F0EE8AE38D5358D0 /* GYDBBaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 949A92DF6E991BFEBB0ADF5C0735B49C /* GYDBBaseManager.m */; };
 		C49D52712466511E332C952834C81FE1 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 29FEA715C0E8E87069667A10B6271873 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C4D2B8BEE73D8F321CD701A6741A80BE /* MyLayoutSizeClass.m in Sources */ = {isa = PBXBuildFile; fileRef = D926FC4A6416E985523717F216E39364 /* MyLayoutSizeClass.m */; };
+		C86E92B4945E74C9B6C79911C9C60CC4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
 		CF370A9098AB6F5EA567F5F27F535EB4 /* MyGridNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A7AA9BA57A19A0789FA4DCA5A3196E /* MyGridNode.m */; };
 		D04AAC8B22E4A4DC4F39891C4E52F251 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 77A9688905879C085613BB1C683F0EDF /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		D06D05EDB538E470C3AB10CCED0B8246 /* TPKeyboardAvoidingCollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = DEAFBA9382162220FD30FA6B65013574 /* TPKeyboardAvoidingCollectionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D690F3DDE7CEEDC4324C28BA83DA144F /* MyLayoutPosInner.h in Headers */ = {isa = PBXBuildFile; fileRef = 50E415AF31B09390E6F26B8C934C0349 /* MyLayoutPosInner.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D7B91E824DE2264F80F97B11C99D220B /* GYDB-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 059A626FF302D3C8038F2E3646E9DBF5 /* GYDB-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DACD19461CA6CF0888ECEF08B5AFCDD0 /* MyGridLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BCC7BDCB866B87685B8ADAB776F5FAF /* MyGridLayout.m */; };
 		DC910746D6357DA71C436B93C0468C5C /* MyLayoutInner.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FE8AC7DF92B5BAD681DC5ADEEF65497 /* MyLayoutInner.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DF0FBB4C8F1B0BAF3F7D7981F16B5917 /* GYDBBaseManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 38BAF08FC6C3E77BA92E6FACF574ED78 /* GYDBBaseManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DF7DB5DA8EA3A1C0328D4AE4977F5A6E /* MyLayoutDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2946BD52AD64D827AFA219ABA0290608 /* MyLayoutDelegate.m */; };
-		DFC63D3106C281CB88C0B4C4B336D55E /* GYDBOprator.h in Headers */ = {isa = PBXBuildFile; fileRef = DDE272544E81AC79683E9D19A18BA95A /* GYDBOprator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E020ABC3F3CA983E0C27682E9B39073F /* MyLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE080F4DB90A51A615D30C2D7FB9616 /* MyLayout-dummy.m */; };
-		E0B8D095C732352C854D365B9E5B993D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EA43E4AD228068DD32036746A42B500 /* UIKit.framework */; };
+		E0B8D095C732352C854D365B9E5B993D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CAA89EEF1039078430D7A886477E365 /* UIKit.framework */; };
 		E4AE67B363E5896D1569D69BAE29ED45 /* MyBorderline.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE00CC361076A4B5E1F966FB417E16A /* MyBorderline.m */; };
 		E5886AFD295A4DE0C0486D0C88BF2211 /* MyLayoutMath.m in Sources */ = {isa = PBXBuildFile; fileRef = AF2881338973CE2CA5E7A3B94348B8DE /* MyLayoutMath.m */; };
 		E5D931BE241F844D9D9A131B19132E77 /* MyLayoutSize.m in Sources */ = {isa = PBXBuildFile; fileRef = F41023646509AA0AB881629212460A20 /* MyLayoutSize.m */; };
+		E82C8445C1F0B41311D56ED860174B0D /* Pods-GYDB_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 798FDBA301D4CB65EEBA074D6C58D01B /* Pods-GYDB_Example-dummy.m */; };
 		E8AC509D18EBF21B1FEA909652A01108 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F9CBE7F25F2C58728354E48C088A548 /* FBSnapshotTestCasePlatform.m */; };
 		EBFC4E7F3F44EDA15D68F458C2977A31 /* MyLayoutDef.h in Headers */ = {isa = PBXBuildFile; fileRef = 6131A70DB48DE377336F8DA6CB411EAA /* MyLayoutDef.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		ED7A25837F9BA54A21E6F2DF8F383749 /* GYDBConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D3ECE336734E1B04F5374AA1523083 /* GYDBConfig.m */; };
-		F073673800DFC58DC98135C58CFECA4B /* GYDBModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EE75B8A27E630C572C70FFC7B32C5D7 /* GYDBModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F1AAAE00BB32B733B238E2B4E8424506 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = E18CA8856068F35B5E4D2EAA10FB201D /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		F24495BB91A24274584EB1BBEB554DED /* MyLayoutDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 437DA2E57923BFA218BB8E121951958F /* MyLayoutDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F720FAF13A108CE6901E0A8B0580E1E8 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A12E585C0D9F7CE00E26540B02CCA680 /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -119,13 +107,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1D9C789777D72774CFF83DC55683838F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1343042EDCB23E2CA267E65C520F9395;
-			remoteInfo = TPKeyboardAvoiding;
-		};
 		423287854F3D0F173B2FDBE9090F6863 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -133,26 +114,26 @@
 			remoteGlobalIDString = 9237F46B40F6F8470F121D58048E4105;
 			remoteInfo = "Pods-GYDB_Example";
 		};
-		97C711D1F30D1DE0A54793D746591CAC /* PBXContainerItemProxy */ = {
+		72FBCF3BC3D508860479994F86398B8B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 8592E0E389D40AC17881400ADC67ABC0;
-			remoteInfo = FMDB;
+			remoteGlobalIDString = 1343042EDCB23E2CA267E65C520F9395;
+			remoteInfo = TPKeyboardAvoiding;
 		};
-		D19DC7F3A200A7C9147287CFCAF46538 /* PBXContainerItemProxy */ = {
+		BD5CB1EC62944E67E3C4F64AD8E1DE72 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = E5D7AEB6D1667A032B7D643480D82E4E;
 			remoteInfo = MyLayout;
 		};
-		D5B99BAE137A54E1B405886D28CECB30 /* PBXContainerItemProxy */ = {
+		C437EFA8042DE1889D6EA424D2BADE29 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 18842EB63B40D80B3F6B36807BE1D7E2;
-			remoteInfo = GYDB;
+			remoteGlobalIDString = 8592E0E389D40AC17881400ADC67ABC0;
+			remoteInfo = FMDB;
 		};
 		E648DEC3C708CC01A9370D77ADDDD789 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -161,20 +142,12 @@
 			remoteGlobalIDString = 98A98149697C80CEF8D5772791E92E66;
 			remoteInfo = FBSnapshotTestCase;
 		};
-		F381F9062EC3C6AE82CC16E0DBC28AB0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8592E0E389D40AC17881400ADC67ABC0;
-			remoteInfo = FMDB;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		00536788B1A0926240D3C6C69EB90616 /* FMDatabase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabase.h; path = src/fmdb/FMDatabase.h; sourceTree = "<group>"; };
 		0179DA0CE3789C65FB1C72B0BBB52511 /* Pods-GYDB_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GYDB_Tests.modulemap"; sourceTree = "<group>"; };
 		032F1DB4122AC1638147D3FCF11B96A4 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
-		059A626FF302D3C8038F2E3646E9DBF5 /* GYDB-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GYDB-umbrella.h"; sourceTree = "<group>"; };
 		08FA53D9AA87E2B6669D2A8FC20131AA /* MyMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MyMaker.h; path = MyLayout/Lib/MyMaker.h; sourceTree = "<group>"; };
 		0C07E06E5C6B32FB5C58E3EFC076C588 /* MyLayoutSizeClass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MyLayoutSizeClass.h; path = MyLayout/Lib/MyLayoutSizeClass.h; sourceTree = "<group>"; };
 		0C63EBE45CF98AB64D38E1CC30A0F8EE /* MyFlowLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MyFlowLayout.h; path = MyLayout/Lib/MyFlowLayout.h; sourceTree = "<group>"; };
@@ -183,13 +156,11 @@
 		0EE00CC361076A4B5E1F966FB417E16A /* MyBorderline.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MyBorderline.m; path = MyLayout/Lib/MyBorderline.m; sourceTree = "<group>"; };
 		10A5F1F36C994F3D497FC293AB9B9CEA /* Pods-GYDB_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GYDB_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		119C8F43F52FF68AB2A5DC6C366AA8D0 /* MyFloatLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MyFloatLayout.m; path = MyLayout/Lib/MyFloatLayout.m; sourceTree = "<group>"; };
-		12399B4ACB165BD521FF584D1B1150C3 /* GYDB.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GYDB.xcconfig; sourceTree = "<group>"; };
 		1801B58E05A48F5E0B45DF581758F55F /* MyFlowLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MyFlowLayout.m; path = MyLayout/Lib/MyFlowLayout.m; sourceTree = "<group>"; };
 		1C28A26E9238EEC41941E7787E9C4C12 /* FMDB-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FMDB-prefix.pch"; sourceTree = "<group>"; };
 		1D89473585B09A6D83D07103FA2F9BC1 /* Pods_GYDB_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GYDB_Example.framework; path = "Pods-GYDB_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FECF95FBE3F102990EB7F3578E46340 /* Pods-GYDB_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GYDB_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		206E1775F989AD6CB5B217DB07134217 /* TPKeyboardAvoiding-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TPKeyboardAvoiding-Info.plist"; sourceTree = "<group>"; };
-		20A76C530748389F9745FDAEEC051C66 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		23ADD423C873AACAE84F73A8230298B2 /* MyBorderline.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MyBorderline.h; path = MyLayout/Lib/MyBorderline.h; sourceTree = "<group>"; };
 		24784B8A9E25C32860AC38FB9EF37382 /* Pods-GYDB_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GYDB_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		283B75A7A53D1150B462526D12D82903 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
@@ -197,14 +168,9 @@
 		29FEA715C0E8E87069667A10B6271873 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
 		2B11FD237C233212A4125F33F37B5FF3 /* TPKeyboardAvoidingScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPKeyboardAvoidingScrollView.h; path = TPKeyboardAvoiding/TPKeyboardAvoidingScrollView.h; sourceTree = "<group>"; };
 		2D3FFC35523991B221288D4D888C72AC /* MyTableLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MyTableLayout.h; path = MyLayout/Lib/MyTableLayout.h; sourceTree = "<group>"; };
-		2DC8C9DC57BBF3CED444F05955B17C8D /* GYDB.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GYDB.modulemap; sourceTree = "<group>"; };
-		2DDC17EAEA818244545D50274F63BDC8 /* FMDB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FMDB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2EE75B8A27E630C572C70FFC7B32C5D7 /* GYDBModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GYDBModel.h; path = GYDB/Classes/GYDBModel.h; sourceTree = "<group>"; };
 		30F0C220B5B08DB53E7FF259F0A0A2D7 /* MyLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MyLayout.xcconfig; sourceTree = "<group>"; };
 		325DF30C4C2282C19C3A5DF5C723A661 /* Pods-GYDB_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GYDB_Example-frameworks.sh"; sourceTree = "<group>"; };
 		38561CB79927151F4CCEAD2BAB54DE72 /* MyLinearLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MyLinearLayout.m; path = MyLayout/Lib/MyLinearLayout.m; sourceTree = "<group>"; };
-		38BAF08FC6C3E77BA92E6FACF574ED78 /* GYDBBaseManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GYDBBaseManager.h; path = GYDB/Classes/GYDBBaseManager.h; sourceTree = "<group>"; };
-		3B9F8D350127272DED0EE334FAE64037 /* GYDBModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GYDBModel.m; path = GYDB/Classes/GYDBModel.m; sourceTree = "<group>"; };
 		3CB05F2ED4B0B97C55A4356B63BEC870 /* Pods-GYDB_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GYDB_Example.release.xcconfig"; sourceTree = "<group>"; };
 		3ECE896E76608B46FB8CEDEF808DDC9F /* MyLayoutMath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MyLayoutMath.h; path = MyLayout/Lib/MyLayoutMath.h; sourceTree = "<group>"; };
 		3F9CBE7F25F2C58728354E48C088A548 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
@@ -224,27 +190,25 @@
 		575405B13CC6D86AA937BAC22724E8EF /* MyLayoutPos.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MyLayoutPos.m; path = MyLayout/Lib/MyLayoutPos.m; sourceTree = "<group>"; };
 		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E3686EC5C0F28B5D30B808F882590B8 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseQueue.m; path = src/fmdb/FMDatabaseQueue.m; sourceTree = "<group>"; };
+		5E601BD54DA9BF4071437E60125281FA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		5F4746BA1F403775D4681D4D9F502049 /* TPKeyboardAvoidingTableView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPKeyboardAvoidingTableView.h; path = TPKeyboardAvoiding/TPKeyboardAvoidingTableView.h; sourceTree = "<group>"; };
 		6131A70DB48DE377336F8DA6CB411EAA /* MyLayoutDef.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MyLayoutDef.h; path = MyLayout/Lib/MyLayoutDef.h; sourceTree = "<group>"; };
 		63BAC2E843F06A212D3CB686E6304466 /* MyLinearLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MyLinearLayout.h; path = MyLayout/Lib/MyLinearLayout.h; sourceTree = "<group>"; };
-		63D3ECE336734E1B04F5374AA1523083 /* GYDBConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GYDBConfig.m; path = GYDB/Classes/GYDBConfig.m; sourceTree = "<group>"; };
 		63D770136CE40C9A9006854C04C76E20 /* Pods-GYDB_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GYDB_Tests-umbrella.h"; sourceTree = "<group>"; };
 		6696496081C503D63B560991661145B2 /* MyTableLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MyTableLayout.m; path = MyLayout/Lib/MyTableLayout.m; sourceTree = "<group>"; };
 		6BF51DB1FA3AF47DAEA6775D867EB9AB /* MyLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MyLayout.framework; path = MyLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DC08621B6C6D2FCD581532F2FE613B8 /* MyGridNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MyGridNode.h; path = MyLayout/Lib/MyGridNode.h; sourceTree = "<group>"; };
-		6EA43E4AD228068DD32036746A42B500 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		6F1C99E5844FD3FDF3F497D72644D651 /* FMDB.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDB.h; path = src/fmdb/FMDB.h; sourceTree = "<group>"; };
 		7095A33FA27208F9A626D2D2D9714D4C /* MyBaseLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MyBaseLayout.m; path = MyLayout/Lib/MyBaseLayout.m; sourceTree = "<group>"; };
+		716A9972B9D9103B54DB950893FAF104 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		7256A52B5C6548A940E24008E9296599 /* TPKeyboardAvoiding.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TPKeyboardAvoiding.modulemap; sourceTree = "<group>"; };
 		7408B32EDEE0709F28471AF8AAD977A3 /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
 		766B6F70EC394E2891C8036150C8B88C /* MyGridLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MyGridLayout.h; path = MyLayout/Lib/MyGridLayout.h; sourceTree = "<group>"; };
 		77A9688905879C085613BB1C683F0EDF /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
-		784D9523CD2A524AB3AAC4445B04191B /* GYDB-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GYDB-Info.plist"; sourceTree = "<group>"; };
 		78E53516730984C0DD212923663185F5 /* TPKeyboardAvoiding-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TPKeyboardAvoiding-umbrella.h"; sourceTree = "<group>"; };
-		796B11BDBD86FAB4589A89678BE757C0 /* GYDB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GYDB.framework; path = GYDB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		798FDBA301D4CB65EEBA074D6C58D01B /* Pods-GYDB_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GYDB_Example-dummy.m"; sourceTree = "<group>"; };
 		79BC11257273823D982B022A648FCE2C /* FMDB.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FMDB.xcconfig; sourceTree = "<group>"; };
-		82899C4E4BBB6C16A9CFE6E9B05B5385 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		83C467E62E549CC9A1656D59580A46DB /* Pods-GYDB_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GYDB_Tests-Info.plist"; sourceTree = "<group>"; };
 		85C8ABA5314452AE31DAA5AE55BBBC1F /* TPKeyboardAvoiding.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TPKeyboardAvoiding.framework; path = TPKeyboardAvoiding.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		86A61F84F8355E20B1B19F1AA1286A07 /* MyLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MyLayout-prefix.pch"; sourceTree = "<group>"; };
@@ -252,11 +216,11 @@
 		8781126EB15D47AAFF80F12B9E233700 /* Pods_GYDB_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GYDB_Tests.framework; path = "Pods-GYDB_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AF341209C0FFBD8A76B577FA1D78A7C /* FMDatabase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabase.m; path = src/fmdb/FMDatabase.m; sourceTree = "<group>"; };
 		8BCB377B99BEF0A2CE7EC556AE925BF6 /* Pods-GYDB_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GYDB_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		8CAA89EEF1039078430D7A886477E365 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		90D0CEEA9068B2E9F3FE6EBA73E0CE19 /* TPKeyboardAvoiding-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TPKeyboardAvoiding-prefix.pch"; sourceTree = "<group>"; };
 		90E118D2E39A47E790773EA11CA716DA /* FMResultSet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMResultSet.m; path = src/fmdb/FMResultSet.m; sourceTree = "<group>"; };
 		9282E06FFF6A6848654C597CB9DCA00C /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
 		935A7399D1F6EB7F1F7FFEB001DABA26 /* TPKeyboardAvoiding-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TPKeyboardAvoiding-dummy.m"; sourceTree = "<group>"; };
-		949A92DF6E991BFEBB0ADF5C0735B49C /* GYDBBaseManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GYDBBaseManager.m; path = GYDB/Classes/GYDBBaseManager.m; sourceTree = "<group>"; };
 		96A32DC9D0F8EF7A7D267F51484A6B2C /* TPKeyboardAvoiding.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TPKeyboardAvoiding.xcconfig; sourceTree = "<group>"; };
 		970FF74180A8155855069B3610B6A301 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
 		9AC9BFD21899F2CC312059C93651BF58 /* MyFloatLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MyFloatLayout.h; path = MyLayout/Lib/MyFloatLayout.h; sourceTree = "<group>"; };
@@ -267,18 +231,15 @@
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A12E585C0D9F7CE00E26540B02CCA680 /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
 		A134B12248FDC8698306E1FBCA9051B9 /* MyPathLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MyPathLayout.h; path = MyLayout/Lib/MyPathLayout.h; sourceTree = "<group>"; };
-		A13B26656B87C1E8EE4477D7DA6643E6 /* GYDB-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GYDB-prefix.pch"; sourceTree = "<group>"; };
 		A1A66514F8A1FFB5FA0EBA9149D49960 /* MyRelativeLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MyRelativeLayout.h; path = MyLayout/Lib/MyRelativeLayout.h; sourceTree = "<group>"; };
 		A22AF20DAC6E67E1D1591639A1122A1A /* MyDimeScale.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MyDimeScale.h; path = MyLayout/Lib/MyDimeScale.h; sourceTree = "<group>"; };
 		A259B48E44E536BE2C414430BE4600A6 /* MyLayoutPos.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MyLayoutPos.h; path = MyLayout/Lib/MyLayoutPos.h; sourceTree = "<group>"; };
 		A3A80BA70CFB7F75C5391BEBBBA8C9DA /* FMDB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FMDB.framework; path = FMDB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A4342F6B7D9D6B1D57BED19827F071B6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		A6B54844C5A719F878D96E6E5FD7A019 /* Pods-GYDB_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GYDB_Example-Info.plist"; sourceTree = "<group>"; };
 		A9B8DC8BCBCB04960B646814BEB0C7B4 /* MyBaseLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MyBaseLayout.h; path = MyLayout/Lib/MyBaseLayout.h; sourceTree = "<group>"; };
 		AA1AC086EF3BD30A669449B6C468C6FB /* MyLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MyLayout.modulemap; sourceTree = "<group>"; };
 		AF2881338973CE2CA5E7A3B94348B8DE /* MyLayoutMath.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MyLayoutMath.m; path = MyLayout/Lib/MyLayoutMath.m; sourceTree = "<group>"; };
 		B04DCE0020685CE66DDCFDB3ED68638C /* MyLayoutSizeInner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MyLayoutSizeInner.h; path = MyLayout/Lib/MyLayoutSizeInner.h; sourceTree = "<group>"; };
-		B106DB4E87DD219F725840FD0655F182 /* GYDB.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = GYDB.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B227A49D6A5428F3C7891BFBD01FEF4D /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
 		B34691D77A1684227BEC64AC36CBA140 /* Pods-GYDB_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GYDB_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		B384851B963C9F4659FA21C72D1831D8 /* MyLayout-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MyLayout-Info.plist"; sourceTree = "<group>"; };
@@ -288,23 +249,18 @@
 		BD6F7C2CD3563D546F27C1EEAC66EAFE /* Pods-GYDB_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GYDB_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		C021FFEF1EBC36E773BFE896B93BDBFA /* UIScrollView+TPKeyboardAvoidingAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+TPKeyboardAvoidingAdditions.h"; path = "TPKeyboardAvoiding/UIScrollView+TPKeyboardAvoidingAdditions.h"; sourceTree = "<group>"; };
 		C1349C84B4AD237380A0FE7BF7B8E27E /* MyFrameLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MyFrameLayout.m; path = MyLayout/Lib/MyFrameLayout.m; sourceTree = "<group>"; };
-		C88358D39A2D44C7C8BC34083B02FA12 /* GYDB-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GYDB-dummy.m"; sourceTree = "<group>"; };
 		C8C9CFF58588D06804443FAC956BA7F5 /* Pods-GYDB_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GYDB_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		CA347B3A98979F181149EEAD0330C661 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseAdditions.m; path = src/fmdb/FMDatabaseAdditions.m; sourceTree = "<group>"; };
 		CCD1CD6E9D5D9FDBB46C5883DC461CC1 /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
 		CE3A6256B32A1CFA4C405D889922B089 /* MyLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MyLayout-umbrella.h"; sourceTree = "<group>"; };
 		CFA51AC8F19EC0EA333A9F995AAE9C3F /* UIScrollView+TPKeyboardAvoidingAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+TPKeyboardAvoidingAdditions.m"; path = "TPKeyboardAvoiding/UIScrollView+TPKeyboardAvoidingAdditions.m"; sourceTree = "<group>"; };
 		D251F9485760BD17FFDC9CE26B582E7B /* MyLayoutSize.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MyLayoutSize.h; path = MyLayout/Lib/MyLayoutSize.h; sourceTree = "<group>"; };
-		D6AB8FC1FE30CC16320E823B3F8F6441 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D926FC4A6416E985523717F216E39364 /* MyLayoutSizeClass.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MyLayoutSizeClass.m; path = MyLayout/Lib/MyLayoutSizeClass.m; sourceTree = "<group>"; };
 		DA33D5E6F5C2F6E7564AC19E30A8FA69 /* MyLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MyLayout.h; path = MyLayout/Lib/MyLayout.h; sourceTree = "<group>"; };
 		DA7DF34E1F68CBB66784D5EA78498FE2 /* MyMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MyMaker.m; path = MyLayout/Lib/MyMaker.m; sourceTree = "<group>"; };
 		DC0067EF298843109BE66D0D59979684 /* FMDB-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FMDB-umbrella.h"; sourceTree = "<group>"; };
-		DDE272544E81AC79683E9D19A18BA95A /* GYDBOprator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GYDBOprator.h; path = GYDB/Classes/GYDBOprator.h; sourceTree = "<group>"; };
 		DEAFBA9382162220FD30FA6B65013574 /* TPKeyboardAvoidingCollectionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPKeyboardAvoidingCollectionView.h; path = TPKeyboardAvoiding/TPKeyboardAvoidingCollectionView.h; sourceTree = "<group>"; };
-		E0F2EF1BD817CD389B48461005509032 /* GYDBOprator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GYDBOprator.m; path = GYDB/Classes/GYDBOprator.m; sourceTree = "<group>"; };
 		E18CA8856068F35B5E4D2EAA10FB201D /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
-		E3AC860D49632A225F8B52C66CBD67E4 /* GYDBConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GYDBConfig.h; path = GYDB/Classes/GYDBConfig.h; sourceTree = "<group>"; };
 		E5ADD16830465AC351FE9AC591C88977 /* FMResultSet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMResultSet.h; path = src/fmdb/FMResultSet.h; sourceTree = "<group>"; };
 		E8B8F99C6D62CB145FAC5C6448DC2E05 /* MyRelativeLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MyRelativeLayout.m; path = MyLayout/Lib/MyRelativeLayout.m; sourceTree = "<group>"; };
 		F0DAB2DD30E74449C16663D5A0243C51 /* MyDimeScale.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MyDimeScale.m; path = MyLayout/Lib/MyDimeScale.m; sourceTree = "<group>"; };
@@ -313,7 +269,6 @@
 		F499FD4112B2E7EDF2812FE399C6BBAC /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
 		F50620E2E84A3266F1FB16A9BE8AB7E3 /* FMDB.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FMDB.modulemap; sourceTree = "<group>"; };
 		F551741E8CB0370AFF38FD44EA7286A9 /* FMDB-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FMDB-Info.plist"; sourceTree = "<group>"; };
-		F5C8F6EC054E74EF49EE7C740C50B73F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		F61BDDED508E817F6D166B0334B46613 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
 		F942511F47989BF8E70BCC186AC5E18D /* MyPathLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MyPathLayout.m; path = MyLayout/Lib/MyPathLayout.m; sourceTree = "<group>"; };
 		FB1E948AA6BD91451A96E58ED8C6AD26 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
@@ -322,23 +277,6 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		01BD90E88A2146A9973FE8FB7A8F2102 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				320F2C1E95D39D19814F6A5C6C802BF4 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		25B680873621A09A5FC417AF33889656 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				393B314D6809E38C47C64FCE76A4C8DD /* FMDB.framework in Frameworks */,
-				68CAD7F4306A4D92675B40F1FDEA5040 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		41E857D338F96D89E73F6E28241F0A8B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -360,6 +298,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				3EC5AFB65FDDE0C720AEADA57C219E0A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1348B23B8D05B855688E29F0E58E14C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C86E92B4945E74C9B6C79911C9C60CC4 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,13 +341,17 @@
 			path = FMDB;
 			sourceTree = "<group>";
 		};
-		3247032305B0F529721AD0A459432A70 /* Frameworks */ = {
+		34E53A0A04ACB30F77BD19FA28776C94 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2DDC17EAEA818244545D50274F63BDC8 /* FMDB.framework */,
-				3F7EF4634D9F6E73B24A23B668C069E1 /* iOS */,
+				5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */,
+				A3A80BA70CFB7F75C5391BEBBBA8C9DA /* FMDB.framework */,
+				6BF51DB1FA3AF47DAEA6775D867EB9AB /* MyLayout.framework */,
+				1D89473585B09A6D83D07103FA2F9BC1 /* Pods_GYDB_Example.framework */,
+				8781126EB15D47AAFF80F12B9E233700 /* Pods_GYDB_Tests.framework */,
+				85C8ABA5314452AE31DAA5AE55BBBC1F /* TPKeyboardAvoiding.framework */,
 			);
-			name = Frameworks;
+			name = Products;
 			sourceTree = "<group>";
 		};
 		37C1E831801B1A7CEA41524BC05D0EA5 /* standard */ = {
@@ -434,17 +384,6 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/FMDB";
-			sourceTree = "<group>";
-		};
-		3F7EF4634D9F6E73B24A23B668C069E1 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				D6AB8FC1FE30CC16320E823B3F8F6441 /* Foundation.framework */,
-				82899C4E4BBB6C16A9CFE6E9B05B5385 /* QuartzCore.framework */,
-				6EA43E4AD228068DD32036746A42B500 /* UIKit.framework */,
-				20A76C530748389F9745FDAEEC051C66 /* XCTest.framework */,
-			);
-			name = iOS;
 			sourceTree = "<group>";
 		};
 		56082F421B52BB94EC011A65042743D6 /* Support Files */ = {
@@ -548,18 +487,15 @@
 			path = FBSnapshotTestCase;
 			sourceTree = "<group>";
 		};
-		71FB7788662B69092D4417845D5074EB /* Products */ = {
+		7DE5752EED0A4C4A430975244947611A /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */,
-				A3A80BA70CFB7F75C5391BEBBBA8C9DA /* FMDB.framework */,
-				796B11BDBD86FAB4589A89678BE757C0 /* GYDB.framework */,
-				6BF51DB1FA3AF47DAEA6775D867EB9AB /* MyLayout.framework */,
-				1D89473585B09A6D83D07103FA2F9BC1 /* Pods_GYDB_Example.framework */,
-				8781126EB15D47AAFF80F12B9E233700 /* Pods_GYDB_Tests.framework */,
-				85C8ABA5314452AE31DAA5AE55BBBC1F /* TPKeyboardAvoiding.framework */,
+				7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */,
+				716A9972B9D9103B54DB950893FAF104 /* QuartzCore.framework */,
+				8CAA89EEF1039078430D7A886477E365 /* UIKit.framework */,
+				5E601BD54DA9BF4071437E60125281FA /* XCTest.framework */,
 			);
-			name = Products;
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		8806EA7E29DBED367E0C3700281904FA /* Pods-GYDB_Example */ = {
@@ -610,38 +546,20 @@
 			path = "../Target Support Files/MyLayout";
 			sourceTree = "<group>";
 		};
-		ADF9FFAD1FCF59E076A04127F533B071 /* GYDB */ = {
-			isa = PBXGroup;
-			children = (
-				38BAF08FC6C3E77BA92E6FACF574ED78 /* GYDBBaseManager.h */,
-				949A92DF6E991BFEBB0ADF5C0735B49C /* GYDBBaseManager.m */,
-				E3AC860D49632A225F8B52C66CBD67E4 /* GYDBConfig.h */,
-				63D3ECE336734E1B04F5374AA1523083 /* GYDBConfig.m */,
-				2EE75B8A27E630C572C70FFC7B32C5D7 /* GYDBModel.h */,
-				3B9F8D350127272DED0EE334FAE64037 /* GYDBModel.m */,
-				DDE272544E81AC79683E9D19A18BA95A /* GYDBOprator.h */,
-				E0F2EF1BD817CD389B48461005509032 /* GYDBOprator.m */,
-				E1FE12F9F5C71D88200E23E7834FFD20 /* Pod */,
-				EC57CAD48F3FF13A698C8AD443E6009B /* Support Files */,
-			);
-			name = GYDB;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		AF632C6B6704A82BC4D7B21152E5813A /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				ADF9FFAD1FCF59E076A04127F533B071 /* GYDB */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 		B68705F9659F3E8FBB3E1B266CD890D7 /* SwiftSupport */ = {
 			isa = PBXGroup;
 			children = (
 				FB1E948AA6BD91451A96E58ED8C6AD26 /* SwiftSupport.swift */,
 			);
 			name = SwiftSupport;
+			sourceTree = "<group>";
+		};
+		BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7DE5752EED0A4C4A430975244947611A /* iOS */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		BB4C5AB056216E37B776CD9A926E97F9 /* TPKeyboardAvoiding */ = {
@@ -665,36 +583,11 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				AF632C6B6704A82BC4D7B21152E5813A /* Development Pods */,
-				3247032305B0F529721AD0A459432A70 /* Frameworks */,
+				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
 				599ED9FC3AC696085E91072C19302136 /* Pods */,
-				71FB7788662B69092D4417845D5074EB /* Products */,
+				34E53A0A04ACB30F77BD19FA28776C94 /* Products */,
 				FFB469096ED65AC41C2D60A44095BBD0 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		E1FE12F9F5C71D88200E23E7834FFD20 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				B106DB4E87DD219F725840FD0655F182 /* GYDB.podspec */,
-				A4342F6B7D9D6B1D57BED19827F071B6 /* LICENSE */,
-				F5C8F6EC054E74EF49EE7C740C50B73F /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		EC57CAD48F3FF13A698C8AD443E6009B /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				2DC8C9DC57BBF3CED444F05955B17C8D /* GYDB.modulemap */,
-				12399B4ACB165BD521FF584D1B1150C3 /* GYDB.xcconfig */,
-				C88358D39A2D44C7C8BC34083B02FA12 /* GYDB-dummy.m */,
-				784D9523CD2A524AB3AAC4445B04191B /* GYDB-Info.plist */,
-				A13B26656B87C1E8EE4477D7DA6643E6 /* GYDB-prefix.pch */,
-				059A626FF302D3C8038F2E3646E9DBF5 /* GYDB-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/GYDB";
 			sourceTree = "<group>";
 		};
 		FF10096E9F161EA96FD605C70DDC3B60 /* Core */ = {
@@ -785,26 +678,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8636CD8701FAF8DB3D9C1A2B3A8EBFB4 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A0BFD3F4E35F4DF72BB76F5B34BFF94E /* Pods-GYDB_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		968858C4299E11D0EE5B41CEF506785D /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D7B91E824DE2264F80F97B11C99D220B /* GYDB-umbrella.h in Headers */,
-				DF0FBB4C8F1B0BAF3F7D7981F16B5917 /* GYDBBaseManager.h in Headers */,
-				4BCE7A2C39A4A837AB5C247355D31DD0 /* GYDBConfig.h in Headers */,
-				F073673800DFC58DC98135C58CFECA4B /* GYDBModel.h in Headers */,
-				DFC63D3106C281CB88C0B4C4B336D55E /* GYDBOprator.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		99A78EC6A10192A70B0A88D8A2162821 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -814,6 +687,14 @@
 				4B73B386F18C087F79B7F941A9986680 /* TPKeyboardAvoidingScrollView.h in Headers */,
 				634BA282ED5A8A40D3DD2D336F1212D0 /* TPKeyboardAvoidingTableView.h in Headers */,
 				F9508F021609D9FC860D693247580C72 /* UIScrollView+TPKeyboardAvoidingAdditions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB25699ACB639DDAD01636E6A654C276 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7DF561A591CD63DF205831E669372F2 /* Pods-GYDB_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -852,25 +733,6 @@
 			productReference = 85C8ABA5314452AE31DAA5AE55BBBC1F /* TPKeyboardAvoiding.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		18842EB63B40D80B3F6B36807BE1D7E2 /* GYDB */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 90AAE8A755F2E9F18BF2081744F6842A /* Build configuration list for PBXNativeTarget "GYDB" */;
-			buildPhases = (
-				968858C4299E11D0EE5B41CEF506785D /* Headers */,
-				41D3C140154D13752508ADFE1A28D902 /* Sources */,
-				25B680873621A09A5FC417AF33889656 /* Frameworks */,
-				75092239D72E94DD54AFE36CEBD914EE /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B88C548E1E980C65E3258D450C88B985 /* PBXTargetDependency */,
-			);
-			name = GYDB;
-			productName = GYDB;
-			productReference = 796B11BDBD86FAB4589A89678BE757C0 /* GYDB.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		8592E0E389D40AC17881400ADC67ABC0 /* FMDB */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = EE1CF8B84020151C94CD4280C9C11ED5 /* Build configuration list for PBXNativeTarget "FMDB" */;
@@ -891,20 +753,19 @@
 		};
 		9237F46B40F6F8470F121D58048E4105 /* Pods-GYDB_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D29A1E80190B1990B3235F73826E34F4 /* Build configuration list for PBXNativeTarget "Pods-GYDB_Example" */;
+			buildConfigurationList = 6F3AC0804B75D399FB5AC5B0F5ED63C3 /* Build configuration list for PBXNativeTarget "Pods-GYDB_Example" */;
 			buildPhases = (
-				8636CD8701FAF8DB3D9C1A2B3A8EBFB4 /* Headers */,
-				05E754B6C43A967207FC63AA1601DC20 /* Sources */,
-				01BD90E88A2146A9973FE8FB7A8F2102 /* Frameworks */,
-				F4CABD4549EB0BAB91FD08E7EDA236FE /* Resources */,
+				DB25699ACB639DDAD01636E6A654C276 /* Headers */,
+				BE04151C4F0B2336D5C0F474C906DCFC /* Sources */,
+				E1348B23B8D05B855688E29F0E58E14C /* Frameworks */,
+				87F6B73E2091D69D58B03B80501FA348 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				7D24C9A1A97687CE15FC5709B652AEB8 /* PBXTargetDependency */,
-				C14CAF59248665926B5ED644AC222696 /* PBXTargetDependency */,
-				7C76D30B3622C44D0709494A5C41E9B4 /* PBXTargetDependency */,
-				298A046FC20011CEE1875813ADCACC4C /* PBXTargetDependency */,
+				F8C2A29D708DFE39B3B5AB1C99E08A76 /* PBXTargetDependency */,
+				A50BE7D37C2A35906F2630B854D87FFD /* PBXTargetDependency */,
+				24EF896A2D3D9AD8C8F5A4BDE03CD716 /* PBXTargetDependency */,
 			);
 			name = "Pods-GYDB_Example";
 			productName = "Pods-GYDB_Example";
@@ -984,13 +845,12 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 71FB7788662B69092D4417845D5074EB /* Products */;
+			productRefGroup = 34E53A0A04ACB30F77BD19FA28776C94 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */,
 				8592E0E389D40AC17881400ADC67ABC0 /* FMDB */,
-				18842EB63B40D80B3F6B36807BE1D7E2 /* GYDB */,
 				E5D7AEB6D1667A032B7D643480D82E4E /* MyLayout */,
 				9237F46B40F6F8470F121D58048E4105 /* Pods-GYDB_Example */,
 				A2176D6CCE9C216A5A54BAB179621D3F /* Pods-GYDB_Tests */,
@@ -1028,7 +888,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		75092239D72E94DD54AFE36CEBD914EE /* Resources */ = {
+		87F6B73E2091D69D58B03B80501FA348 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1042,24 +902,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F4CABD4549EB0BAB91FD08E7EDA236FE /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		05E754B6C43A967207FC63AA1601DC20 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7F47CE8199F1A9484459FA8543E3E733 /* Pods-GYDB_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		0CBD45C49DEFF0E02407E6419A7A34EB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1069,18 +914,6 @@
 				35B26008F398A95E00F7DA259444914F /* TPKeyboardAvoidingScrollView.m in Sources */,
 				AF9B88A2C96F4498D44C8BA2C747FD0D /* TPKeyboardAvoidingTableView.m in Sources */,
 				24BA4D5D1F16648F66CE82879C9F92BE /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		41D3C140154D13752508ADFE1A28D902 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BE4D9933F78EEF12F3824D960F077689 /* GYDB-dummy.m in Sources */,
-				C20C62DD0A7D6166F0EE8AE38D5358D0 /* GYDBBaseManager.m in Sources */,
-				ED7A25837F9BA54A21E6F2DF8F383749 /* GYDBConfig.m in Sources */,
-				15AE75274641DAAFE02EA8162829C060 /* GYDBModel.m in Sources */,
-				43FE025B75F4162B0FD9F34D3BB44455 /* GYDBOprator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1121,6 +954,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BE04151C4F0B2336D5C0F474C906DCFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E82C8445C1F0B41311D56ED860174B0D /* Pods-GYDB_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F75C747152D7731FF4F2216C8B62314B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1150,23 +991,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		298A046FC20011CEE1875813ADCACC4C /* PBXTargetDependency */ = {
+		24EF896A2D3D9AD8C8F5A4BDE03CD716 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = TPKeyboardAvoiding;
 			target = 1343042EDCB23E2CA267E65C520F9395 /* TPKeyboardAvoiding */;
-			targetProxy = 1D9C789777D72774CFF83DC55683838F /* PBXContainerItemProxy */;
-		};
-		7C76D30B3622C44D0709494A5C41E9B4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = MyLayout;
-			target = E5D7AEB6D1667A032B7D643480D82E4E /* MyLayout */;
-			targetProxy = D19DC7F3A200A7C9147287CFCAF46538 /* PBXContainerItemProxy */;
-		};
-		7D24C9A1A97687CE15FC5709B652AEB8 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = FMDB;
-			target = 8592E0E389D40AC17881400ADC67ABC0 /* FMDB */;
-			targetProxy = F381F9062EC3C6AE82CC16E0DBC28AB0 /* PBXContainerItemProxy */;
+			targetProxy = 72FBCF3BC3D508860479994F86398B8B /* PBXContainerItemProxy */;
 		};
 		81449966EE09BB5D9DB337585CF670DB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1174,23 +1003,23 @@
 			target = 9237F46B40F6F8470F121D58048E4105 /* Pods-GYDB_Example */;
 			targetProxy = 423287854F3D0F173B2FDBE9090F6863 /* PBXContainerItemProxy */;
 		};
-		B88C548E1E980C65E3258D450C88B985 /* PBXTargetDependency */ = {
+		A50BE7D37C2A35906F2630B854D87FFD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = FMDB;
-			target = 8592E0E389D40AC17881400ADC67ABC0 /* FMDB */;
-			targetProxy = 97C711D1F30D1DE0A54793D746591CAC /* PBXContainerItemProxy */;
-		};
-		C14CAF59248665926B5ED644AC222696 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = GYDB;
-			target = 18842EB63B40D80B3F6B36807BE1D7E2 /* GYDB */;
-			targetProxy = D5B99BAE137A54E1B405886D28CECB30 /* PBXContainerItemProxy */;
+			name = MyLayout;
+			target = E5D7AEB6D1667A032B7D643480D82E4E /* MyLayout */;
+			targetProxy = BD5CB1EC62944E67E3C4F64AD8E1DE72 /* PBXContainerItemProxy */;
 		};
 		E43E56F39C49A43AB8FF7ABD6E5056B0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FBSnapshotTestCase;
 			target = 98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */;
 			targetProxy = E648DEC3C708CC01A9370D77ADDDD789 /* PBXContainerItemProxy */;
+		};
+		F8C2A29D708DFE39B3B5AB1C99E08A76 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FMDB;
+			target = 8592E0E389D40AC17881400ADC67ABC0 /* FMDB */;
+			targetProxy = C437EFA8042DE1889D6EA424D2BADE29 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -1226,6 +1055,40 @@
 			};
 			name = Debug;
 		};
+		1A29A90F2AC36A89E336EE17A89300DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CB05F2ED4B0B97C55A4356B63BEC870 /* Pods-GYDB_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GYDB_Example/Pods-GYDB_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GYDB_Example/Pods-GYDB_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		2FEA576F637A40AB222E48A8B960ED45 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 96A32DC9D0F8EF7A7D267F51484A6B2C /* TPKeyboardAvoiding.xcconfig */;
@@ -1247,38 +1110,6 @@
 				MODULEMAP_FILE = "Target Support Files/TPKeyboardAvoiding/TPKeyboardAvoiding.modulemap";
 				PRODUCT_MODULE_NAME = TPKeyboardAvoiding;
 				PRODUCT_NAME = TPKeyboardAvoiding;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		380774676EE7B3C7A38A61BDCD0F5BC0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 12399B4ACB165BD521FF584D1B1150C3 /* GYDB.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/GYDB/GYDB-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/GYDB/GYDB-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/GYDB/GYDB.modulemap";
-				PRODUCT_MODULE_NAME = GYDB;
-				PRODUCT_NAME = GYDB;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -1317,37 +1148,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		44FBABD0D2BA0AF05C6E9438555771B7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 12399B4ACB165BD521FF584D1B1150C3 /* GYDB.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/GYDB/GYDB-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/GYDB/GYDB-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/GYDB/GYDB.modulemap";
-				PRODUCT_MODULE_NAME = GYDB;
-				PRODUCT_NAME = GYDB;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -1605,9 +1405,9 @@
 			};
 			name = Debug;
 		};
-		8E7A92CCEA1820B9F715F3B6175812DB /* Release */ = {
+		A9000510D1BD170DC2CBB4C15922E953 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3CB05F2ED4B0B97C55A4356B63BEC870 /* Pods-GYDB_Example.release.xcconfig */;
+			baseConfigurationReference = C8C9CFF58588D06804443FAC956BA7F5 /* Pods-GYDB_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -1633,11 +1433,10 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		C7AAF3441B51A229A3441238CBDB67A9 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1735,39 +1534,6 @@
 			};
 			name = Debug;
 		};
-		F291A13F0353959EFA23BBBB66D20D4F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C8C9CFF58588D06804443FAC956BA7F5 /* Pods-GYDB_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-GYDB_Example/Pods-GYDB_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-GYDB_Example/Pods-GYDB_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1789,11 +1555,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		90AAE8A755F2E9F18BF2081744F6842A /* Build configuration list for PBXNativeTarget "GYDB" */ = {
+		6F3AC0804B75D399FB5AC5B0F5ED63C3 /* Build configuration list for PBXNativeTarget "Pods-GYDB_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				44FBABD0D2BA0AF05C6E9438555771B7 /* Debug */,
-				380774676EE7B3C7A38A61BDCD0F5BC0 /* Release */,
+				A9000510D1BD170DC2CBB4C15922E953 /* Debug */,
+				1A29A90F2AC36A89E336EE17A89300DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1812,15 +1578,6 @@
 			buildConfigurations = (
 				175239CC3726A60B02FA3D287A66D18A /* Debug */,
 				649CAE3CC6DDB2AB1C88CCF73E04B6D1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D29A1E80190B1990B3235F73826E34F4 /* Build configuration list for PBXNativeTarget "Pods-GYDB_Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F291A13F0353959EFA23BBBB66D20D4F /* Debug */,
-				8E7A92CCEA1820B9F715F3B6175812DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

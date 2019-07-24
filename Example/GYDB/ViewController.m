@@ -9,7 +9,7 @@
 #import "ViewController.h"
 #import "AddViewController.h"
 #import "QueryViewController.h"
-
+#import "GYDB.h"
 
 @interface ViewController ()
 {
@@ -24,8 +24,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.navigationItem.title = @"GYDB";
-    
     self.view.backgroundColor = [UIColor whiteColor];
+    
+    GYDBOption.debug = NO ;
     
     titles =[NSArray arrayWithObjects:@"添加" , @"查询", nil] ;
     cons = [NSArray arrayWithObjects:[AddViewController class],[QueryViewController class], nil];
@@ -43,9 +44,6 @@
         [button addTarget:self action:@selector(startViewController:) forControlEvents:UIControlEventTouchUpInside] ;
         
     }
-    
-    
-    NSLog(@"%%%@%%",@"liu");
     
 }
 

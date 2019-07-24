@@ -29,13 +29,12 @@
 
 -(BOOL)debug
 {
-    NSLog(@"get debug info ");
-    return NO ;
+    return _debug ;
 }
 
 -(NSString *)dbName
 {
-    return @"gydb.db";
+    return _dbName ? _dbName : @"gydb.db";
 }
 
 @end
