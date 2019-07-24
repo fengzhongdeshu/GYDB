@@ -22,26 +22,26 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 GYUser *user = [[GYUser alloc]init] ;
 BOOL bol = [[[GYDBOprator opratorWithModel:[GYUser class]]addSaveModel:user] save] ;
 
-#查询：
-GYDBOprator *oprator = [GYDBOprator opratorWithModel:[GYUser class]] ;
-[oprator whereColume:@"name" compare:@"=" value:@"张三"] ;
-[oprator andWhereColume:@"age" compare:@"=" value:@"12"];
-NSArray *arr =  [oprator query] ;
+#查询：  
+GYDBOprator *oprator = [GYDBOprator opratorWithModel:[GYUser class]] ;  
+[oprator whereColume:@"name" compare:@"=" value:@"张三"] ;  
+[oprator andWhereColume:@"age" compare:@"=" value:@"12"];  
+NSArray *arr =  [oprator query] ;  
 
-#删除
+#删除  
 GYDBOprator *oprator = [GYDBOprator opratorWithModel:[GYUser class]] ;  
 [oprator whereColume:@"name" compare:@"=" value:@"张三"] ;  
 [oprator andWhereColume:@"age" compare:@"=" value:@"12"];  
 NSArray *arr =  [oprator remove] ;  
 
-#更新
-GYDBOprator *oprator = [GYDBOprator opratorWithModel:[GYUser class]] ;
-//设置要更新的字段和值
-[oprator updateColume:@"age" toValue:@"18"] ;
-//添加过滤条件
-[oprator whereColume:@"name" compare:@"=" value:@"张三"] ;
-[oprator andWhereColume:@"age" compare:@"=" value:@"12"];
-BOOL bol =  [oprator update];
+#更新  
+GYDBOprator *oprator = [GYDBOprator opratorWithModel:[GYUser class]] ;  
+//设置要更新的字段和值  
+[oprator updateColume:@"age" toValue:@"18"] ;  
+//添加过滤条件  
+[oprator whereColume:@"name" compare:@"=" value:@"张三"] ;  
+[oprator andWhereColume:@"age" compare:@"=" value:@"12"];  
+BOOL bol =  [oprator update];  
 
 
 ## Requirements
