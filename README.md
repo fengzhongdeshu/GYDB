@@ -10,7 +10,7 @@
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Document
-框架特点:  
+**框架特点:**  
 1:使用sqlite3为数据存储媒介，以键值形式存储数据。  
 2:app升级或者数据字段升级，无需关心数据迁移问题，不需要维护版本，数据存储字段可以任意添加或者删除。  
 3:完全面向对象操作，且不需要继承特定的类，只需要把Model存储即可。  
@@ -18,23 +18,23 @@ To run the example project, clone the repo, and run `pod install` from the Examp
  
 
 ##Usage
-#保存：
+**#保存**：
 GYUser *user = [[GYUser alloc]init] ;
 BOOL bol = [[[GYDBOprator opratorWithModel:[GYUser class]]addSaveModel:user] save] ;
 
-#查询：  
+**#查询**：  
 GYDBOprator *oprator = [GYDBOprator opratorWithModel:[GYUser class]] ;  
 [oprator whereColume:@"name" compare:@"=" value:@"张三"] ;  
 [oprator andWhereColume:@"age" compare:@"=" value:@"12"];  
 NSArray *arr =  [oprator query] ;  
 
-#删除  
+**#删除**  
 GYDBOprator *oprator = [GYDBOprator opratorWithModel:[GYUser class]] ;  
 [oprator whereColume:@"name" compare:@"=" value:@"张三"] ;  
 [oprator andWhereColume:@"age" compare:@"=" value:@"12"];  
 NSArray *arr =  [oprator remove] ;  
 
-#更新  
+**#更新**  
 GYDBOprator *oprator = [GYDBOprator opratorWithModel:[GYUser class]] ;  
 //设置要更新的字段和值  
 [oprator updateColume:@"age" toValue:@"18"] ;  
