@@ -24,7 +24,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 (2)数据库名称:GYDBOption.dbName = @"demo.db" ;  
 
 **保存**  
-GYUser *user = [[GYUser alloc]init] ;
+GYUser *user = [[GYUser alloc]init] ;  
 BOOL bol = [[[GYDBOprator opratorWithModel:[GYUser class]]addSaveModel:user] save] ;
 
 **查询**    
