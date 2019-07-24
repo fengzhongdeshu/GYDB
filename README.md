@@ -17,24 +17,24 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 4:操作简单，简单调用即可实现CRUD操作。  
  
 
-##Usage
-**#保存**：
+##Usage##
+**保存**  
 GYUser *user = [[GYUser alloc]init] ;
 BOOL bol = [[[GYDBOprator opratorWithModel:[GYUser class]]addSaveModel:user] save] ;
 
-**#查询**：  
+**查询**    
 GYDBOprator *oprator = [GYDBOprator opratorWithModel:[GYUser class]] ;  
 [oprator whereColume:@"name" compare:@"=" value:@"张三"] ;  
 [oprator andWhereColume:@"age" compare:@"=" value:@"12"];  
 NSArray *arr =  [oprator query] ;  
 
-**#删除**  
+**删除**  
 GYDBOprator *oprator = [GYDBOprator opratorWithModel:[GYUser class]] ;  
 [oprator whereColume:@"name" compare:@"=" value:@"张三"] ;  
 [oprator andWhereColume:@"age" compare:@"=" value:@"12"];  
 NSArray *arr =  [oprator remove] ;  
 
-**#更新**  
+**更新**  
 GYDBOprator *oprator = [GYDBOprator opratorWithModel:[GYUser class]] ;  
 //设置要更新的字段和值  
 [oprator updateColume:@"age" toValue:@"18"] ;  
