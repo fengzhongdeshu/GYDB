@@ -10,19 +10,21 @@
 #import "FMDatabase.h"
 #import "FMDatabaseQueue.h"
 #import "GYDBModel.h"
+#import "GYDBConfig.h"
 
 #ifndef GYDB_DATABASE_NAME
 
 #define GYDB_DATABASE_NAME @"gydb.db"
 
-#define GYDB_DEBUG 1
+#define GYDB_DEBUG GYDBConfig.debug
+
 #define GYDB_Log(info) if(GYDB_DEBUG) NSLog(info);
 #define GYDB_LogObj(info) if(GYDB_DEBUG) NSLog(@"%@",info);
 
 #endif
 
 NS_ASSUME_NONNULL_BEGIN
-
+//GYDBConfig.dbName
 @interface GYDBBaseManager : NSObject
 {
     FMDatabaseQueue *_queue ;
