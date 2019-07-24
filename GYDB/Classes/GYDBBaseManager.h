@@ -14,12 +14,12 @@
 
 #ifndef GYDB_DATABASE_NAME
 
-#define GYDB_DATABASE_NAME @"gydb.db"
+#define GYDBOption [GYDBConfig shareInstance]
 
-#define GYDB_DEBUG GYDBConfig.debug
+#define GYDB_DATABASE_NAME GYDBOption.dbName
 
-#define GYDB_Log(info) if(GYDB_DEBUG) NSLog(info);
-#define GYDB_LogObj(info) if(GYDB_DEBUG) NSLog(@"%@",info);
+#define GYDB_Log(info) if(GYDBOption.debug) NSLog(info);
+#define GYDB_LogObj(info) if(GYDBOption.debug) NSLog(@"---%@",info);
 
 #endif
 

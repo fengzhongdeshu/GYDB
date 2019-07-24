@@ -11,6 +11,7 @@
 #endif
 
 #import "GYDBBaseManager.h"
+#import "GYDBConfig.h"
 #import "GYDBModel.h"
 #import "GYDBOprator.h"
 
