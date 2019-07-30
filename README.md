@@ -4,7 +4,7 @@
 [![License](https://img.shields.io/cocoapods/l/GYDB.svg?style=flat)](https://cocoapods.org/pods/GYDB)
 [![Platform](https://img.shields.io/cocoapods/p/GYDB.svg?style=flat)](https://cocoapods.org/pods/GYDB)
 
-[![android](https://github.com/fengzhongdeshu/AndGYDB)
+* [GYDB for Android](https://github.com/fengzhongdeshu/AndGYDB) 
 
 ![Image text](https://github.com/fengzhongdeshu/GYDB/blob/master/Image/gydb_03.png)
 ## Example
