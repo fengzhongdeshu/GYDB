@@ -41,6 +41,18 @@
     return op ;
 }
 
++(instancetype)oprator
+{
+    GYDBOprator *op = [[GYDBOprator alloc]init] ;
+    return op ;
+}
+
+-(instancetype)initModel:(Class)clazz
+{
+    self.clazz = clazz ;
+    return self ;
+}
+
 /**
  恢复运行环境
  */

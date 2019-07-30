@@ -16,6 +16,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 +(instancetype)opratorWithModel:(Class)clazz ; 
 
++(instancetype)oprator;
+
+-(instancetype)initModel:(Class)clazz ;
 
 /**
  条件组装器

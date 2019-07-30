@@ -26,7 +26,7 @@
     self.navigationItem.title = @"GYDB";
     self.view.backgroundColor = [UIColor whiteColor];
     
-    GYDBOption.debug = NO ;
+    GYDBOption.debug = YES ;
     
     titles =[NSArray arrayWithObjects:@"添加" , @"查询", nil] ;
     cons = [NSArray arrayWithObjects:[AddViewController class],[QueryViewController class], nil];

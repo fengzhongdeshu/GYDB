@@ -165,7 +165,7 @@
 -(NSArray<GYDBModel *> *)getAllWithModelString:(NSString *)modelStr
 {
     
-    NSString *sql = [NSString stringWithFormat:@"select * from CONTENTTABLE WHERE model = '%@' ",modelStr] ;
+    NSString *sql = [NSString stringWithFormat:@"select * from CONTENTTABLE WHERE model = '%@' ORDER BY bus_id ASC",modelStr] ;
     
     return [self getModelsByQuerySQL:sql] ;
 }
@@ -179,7 +179,7 @@
 {
     if (models.count==0) {
         GYDB_Log(@"param models can not be empty!!!");
-        return nil ;
+        return NO ;
     }
     
     NSString *sql = [NSMutableString stringWithString:@"DELETE FROM CONTENTTABLE WHERE bus_id IN ( %@ ) "] ;
@@ -280,15 +280,11 @@
     
     GYDB_LogObj(sql) ;
     
-    BOOL __block suc = YES ;
-    
-    [_queue inTransaction:^(FMDatabase * _Nonnull db, BOOL * _Nonnull rollback) {
-         BOOL ret =  [db executeUpdate:sql] ;
-        if (!ret || [db hadError]) {
-            [db rollback];
-            suc = NO ;
-            NSString *str = [NSString stringWithFormat:@" execute sql -> %@ error !" , sql] ;
-            GYDB_LogObj(str) ;
+    BOOL __block suc = NO ;
+    [_queue inDatabase:^(FMDatabase * _Nonnull db) {
+        BOOL ret =  [db executeUpdate:sql] ;
+        if (ret && ![db hadError]) {
+            suc = YES ;
         }
     }] ;
     
