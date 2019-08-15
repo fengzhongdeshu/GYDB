@@ -57,7 +57,14 @@ GYDBOprator *oprator = [GYDBOprator opratorWithModel:[GYUser class]] ;
 BOOL bol =  [oprator update];  
 ```
 
-## Requirements
+## 版本更新日志
+```
+
+2019-8-15(tag:0.3.2)
+1:修改多数据对象实例查询和删除时，字段冲突问题。
+
+
+```
 
 ## Installation
 
