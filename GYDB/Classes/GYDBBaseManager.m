@@ -147,10 +147,10 @@
         return nil ;
     }
     
-    NSString *sql = @"SELECT * FROM CONTENTTABLE WHERE bus_id IN ( %@ ) ORDER BY bus_id ASC " ;
+    NSString *sql = @"SELECT * FROM CONTENTTABLE WHERE model = '%@' AND  bus_id IN ( %@ ) ORDER BY bus_id ASC " ;
     NSString *condition = [self getConditionsIds:models];
     
-    sql = [NSString stringWithFormat:sql , condition] ;
+    sql = [NSString stringWithFormat:sql , models[0].model ,condition] ;
     
     return [self getModelsByQuerySQL:sql] ;
 }
@@ -182,10 +182,10 @@
         return NO ;
     }
     
-    NSString *sql = [NSMutableString stringWithString:@"DELETE FROM CONTENTTABLE WHERE bus_id IN ( %@ ) "] ;
+    NSString *sql = [NSMutableString stringWithString:@"DELETE FROM CONTENTTABLE WHERE model = '%@' AND bus_id IN ( %@ ) "] ;
     NSString *condition = [self getConditionsIds:models];
     
-    sql = [NSString stringWithFormat:sql , condition] ;
+    sql = [NSString stringWithFormat:sql ,models[0].model ,  condition] ;
     
     return [self executeUpdate:sql] ;
 }
