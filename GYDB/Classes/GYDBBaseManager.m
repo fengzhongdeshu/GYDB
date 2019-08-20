@@ -10,25 +10,44 @@
 
 @implementation GYDBBaseManager
 
+static GYDBBaseManager *instance ;
 
-+(id)allocWithZone:(struct _NSZone *)zone
++(instancetype)allocWithZone:(struct _NSZone *)zone
 {
-    static GYDBBaseManager *instance ;
     
     static dispatch_once_t onceToken ;
     
     dispatch_once(&onceToken, ^{
-        instance = [super allocWithZone:zone];
+        if (!instance) {
+            instance = [super allocWithZone:zone] ;
+        }
     });
     
     return instance ;
 }
 
-
-+(id)shareInstance
++(instancetype)shareInstance
 {
-    return [[self alloc]init] ;
+    static dispatch_once_t onceToken ;
+    dispatch_once(&onceToken, ^{
+        if (!instance) {
+            instance = [[self alloc]init] ;
+        }
+    });
+    return instance ;
 }
+
+- (id)copy
+{
+    return self ;
+}
+
+- (id)mutableCopy
+{
+    return self ;
+}
+
+
 
 - (instancetype)init
 {

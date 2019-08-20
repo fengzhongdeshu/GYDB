@@ -30,7 +30,7 @@ NS_ASSUME_NONNULL_BEGIN
     FMDatabaseQueue *_queue ;
 }
 
-+(id)shareInstance ; 
++(instancetype)shareInstance ; 
 
 
 /**
